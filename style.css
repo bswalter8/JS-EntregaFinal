@@ -1,0 +1,296 @@
+  @font-face {
+    font-family: "rosa";
+    src: url("res/RoslindaleDisplayCondensed-Regular.woff2") format("woff2"); 
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital@1&family=Oswald:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap');
+
+
+/*compra backgorund*/
+.c_modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow:hidden; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(8, 8, 8, 0.4); 
+  }
+  .carrito-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    height: 30rem;
+    overflow: scroll;
+    width: 60%; 
+    text-align: center;
+    font-family: 'Oswald', sans-serif;   
+  }  
+  .carrito-lista{
+    text-align: center;
+    
+  }
+  
+  .boton_de_carrito{
+    justify-content: center;
+    position: absolute;
+    top: 40rem;
+    z-index: 1;
+    background-color: rgb(228, 223, 223);
+       
+  }  
+
+  /* compra background */
+.compra_modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(8, 8, 8, 0.4);
+  }
+  
+  /* compra contenido */
+  .compra-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  li{
+    list-style:none;
+  }
+
+/* agregado background */
+.agregado_modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(8, 8, 8, 0.4);
+}
+
+/* agregado contenido */
+.agregado-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; 
+}
+  /* Boton cerrar */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /*Estilos*/
+
+  *{
+    margin: 0;   
+    padding: 0;
+  }
+
+   body{
+     overflow: hidden;
+   } 
+ 
+
+  nav{
+    background-color: rgb(231, 222, 222);
+    position: absolute;
+    overflow: hidden;
+    display: flex; 
+    justify-content: space-around;
+    margin: 0;
+    height: 15%;  
+    width: 100%;
+    z-index: 1;
+  }
+
+  h1{
+    font-family: 'BIZ UDPMincho', serif;
+    font-size: 2em;
+    margin: 1.2em;
+  }
+
+  .cat{
+    margin: 2em;
+    margin-top: 3em;
+    font-family: 'Oswald', sans-serif;
+   
+  }
+  .checklist{
+   
+  }
+  .carrito-container{
+    margin: 1.2em;
+    
+    width: 7rem;
+    top: 3vh;
+  }
+  
+  .barra-de-busqueda{
+    position: relative;
+    top: 2.3rem;
+   
+  }
+
+  #num_Carrito{
+    position: relative;
+    top: -1vh;
+    left: 6vw;
+    font-style: "rosa";
+    font-size: 1.3rem;
+  }
+  
+  .items{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: absolute;
+    overflow: scroll;
+    height: 80%;
+    width: 90%;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: none;
+    margin: 0;
+       
+  }
+
+  .items li{
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+  .items li p{
+    background-color: #fefefe;  
+  }
+
+  
+  .paginas{  
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    margin: 0;
+    z-index:1;
+
+  }
+
+  .item_Individual{
+    background: none;
+    border-style:solid;  
+    display: grid;
+    padding: 0rem;
+    margin: 2rem;
+    margin-top: 0;
+    box-shadow: 2px;
+    font-family: 'rosa';
+    height: 33rem;
+    max-width: 10em;
+    text-align: center;   
+  }
+
+  .item_Individual li b{
+    background-color: rgb(202, 187, 187);
+  }
+
+
+  .b_comprar{
+    background-color: #aaa;
+    margin-bottom: .2rem;   
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+   }
+
+.boton_de_busqueda{
+  background:transparent;
+    padding:0.5rem 0.5rem;
+    margin:0 0.5rem;
+    font-size:1rem;
+    outline:none;
+}   
+
+button {
+    background:transparent;
+    padding:0.5rem 0.5rem;
+    margin:0 0.5rem;
+    font-size:1rem;
+    outline:none;   
+}
+
+button:hover{
+ box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+}
+button.lined.thick{
+ border:solid 3px #41403E;
+}
+button.dotted.thick{
+ border:dotted 3px #41403E;
+}
+button.dashed.thick{
+border:dashed 3px #41403E;
+}
+button.lined.thin{
+ border:solid 2px #41403E;
+}
+button.dotted.thin{
+ border:dotted 2px #41403E;
+}
+button.dashed.thin{
+border:dashed 2px #41403E;
+}
+
+.carrito_Boton{
+  background: url(res/shopping-cart-sketch-svgrepo-com.svg) no-repeat top left;
+  background-size: contain;
+  cursor: pointer;
+  display: inline-block;
+  height: 4.5rem;
+  width: 5rem;
+  padding:0.5rem 0.5rem;
+  margin:0 0.5rem;
+  font-size:1rem;
+  outline:none;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius:15px 255px;
+}
+

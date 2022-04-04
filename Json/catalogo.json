@@ -1,0 +1,569 @@
+[
+    {
+        "id": 20,
+        "nombre": "La Odisea",
+        "precio":250, 
+        "autor" : "Homero",
+        "categoria" : "clasicos",
+        "img" : "laodisea.jpeg",
+        "stock": 8
+
+    },
+    {
+        "id": 21,
+        "nombre": "Crimen y Castigo",
+        "precio":200, 
+        "autor" :  "Dostoievski",
+        "categoria" : "clasicos",
+        "img" : "crimenycastigo.jpeg",
+        "stock": 4
+
+    },
+
+    {
+        "id": 22,
+        "nombre": "El Proceso",
+        "precio":150, 
+        "autor" :  "Kafka",
+        "categoria" : "modernos",
+        "img" : "elproceso.jpeg",
+        "stock": 2
+
+    },
+    {
+        "id": 23,
+        "nombre": "Divina Comedia",
+        "precio":520, 
+        "autor" : "Dante Alighieri",
+        "categoria" :  "clasicos",
+        "img" : "divinacomedia.jpeg",
+        "stock": 1
+
+    },
+    {
+        "id":24,
+        "nombre": "En el Camino",
+        "precio":260, 
+        "autor" : "Jack Kerouac",
+        "categoria" : "contemporaneos",
+        "img" : "enelcamino.jpeg",
+        "stock": 5
+
+    },
+    {
+        "id": 30,
+        "nombre": "Las flores del mal",
+        "precio":120, 
+        "autor" : "Charles Baudelaire",
+        "categoria" :  "poesia",
+        "img" : "lasflores.jpeg",
+        "stock": 0
+
+    },
+    {
+        "id": 31,
+        "nombre": "El spleen de Paris",
+        "precio":420, 
+        "autor" : "Charles Baudelaire",
+        "categoria" :  "poesia",
+        "img" : "spleen.jpeg",
+        "stock": 3
+
+    },
+    {
+        "id": 32,
+        "nombre": "Una temporada en el infierno",
+        "precio":220, 
+        "autor" : "Arthur Rimbaud",
+        "categoria" :  "poesia",
+        "img" : "temporada.jpeg",
+        "stock": 9
+
+    },
+    {
+        "id": 33,
+        "nombre": "Iluminaciones",
+        "precio":200, 
+        "autor" : "Arthur Rimbaud",
+        "categoria" :  "poesia",
+        "img" : "iluminaciones.jpeg",
+        "stock": 1
+
+    },
+    {
+        "id": 34,
+        "nombre": "Antologia Poetica",
+        "precio":510, 
+        "autor" : "Jorge Luis Borges",
+        "categoria" :  "clasicos",
+        "img" : "borgespoesia.jpeg",
+        "stock": 6
+
+    },
+    {
+        "id": 35,
+        "nombre": "Miercoles de ceniza",
+        "precio":100, 
+        "autor" : "T S Eliot",
+        "categoria" :  "poesia",
+        "img" : "tseliot.jpeg",
+        "stock": 5
+
+    },
+    {
+        "id": 36,
+        "nombre": "John Keats Antologia",
+        "precio":370, 
+        "autor" : "John Keats ",
+        "categoria" :  "poesia",
+        "img" : "keats.jpeg",
+        "stock": 4
+
+    },
+    {
+        "id": 37,
+        "nombre": "La Antologia de W B Yeats", 
+        "precio":100, 
+        "autor" : "W B Yeats",
+        "categoria" :  "poesia",
+        "img" : "yeats.jpeg",
+        "stock": 0
+
+    },
+    {
+        "id": 38,
+        "nombre": "Selected Poetry and Prose",
+        "precio":700, 
+        "autor" : "Stéphane Mallarmé",
+        "categoria" :  "poesia",
+        "img" : "mallarme.jpeg",
+        "stock": 3
+
+    },
+    {
+        "id": 39,
+        "nombre": "La extracción de la piedra de la locura y otros poemas",
+        "precio":200, 
+        "autor" : "Alejandra Pizarnik",
+        "categoria" :  "poesia",
+        "img" : "laextraccion.jpeg",
+        "stock": 2
+
+    },
+    {
+        "id": 40,
+        "nombre": "Aullido",
+        "precio":250, 
+        "autor" : "Allen Ginsberg",
+        "categoria" :  "poesia",
+        "img" : "aullido.jpeg",
+        "stock": 4
+
+    },
+    {
+        "id": 41,
+        "nombre": "Macbeth",
+        "precio":200, 
+        "autor" : "William Shakespeare",
+        "categoria" :  "clasicos",
+        "img" : "macbeth.jpeg",
+        "stock": 5
+
+    },
+    {
+        "id": 42,
+        "nombre": "Hamlet",
+        "precio":200, 
+        "autor" : "William Shakespeare",
+        "categoria" :  "clasicos",
+        "img" : "hamlet.jpeg",
+        "stock": 5
+
+    },
+    {
+        "id": 43,
+        "nombre": "Don Quijote de la Mancha",
+        "precio":300, 
+        "autor" : "Cervantes Saavedra",
+        "categoria" :  "clasicos",
+        "img" : "hamlet.jpeg",
+        "stock": 2
+    },
+    {
+        "id": 44,
+        "nombre": "Guerra y paz",
+        "precio":500, 
+        "autor" : "Leon Tolstoi",
+        "categoria" :  "clasicos",
+        "img" : "tolstoi.jpeg",
+        "stock": 3
+    },
+    {
+        "id": 45,
+        "nombre": "Orgullo y prejuicio",
+        "precio":400, 
+        "autor" : "Jane Austen",
+        "categoria" :  "clasicos",
+        "img" : "austen.jpeg",
+        "stock": 3
+    },
+    {
+        "id": 46,
+        "nombre": "Un cuento de dos ciudades",
+        "precio":100, 
+        "autor" : "Charles Dickens",
+        "categoria" :  "clasicos",
+        "img" : "dickens.jpeg",
+        "stock": 5
+    },
+    {
+        "id": 47,
+        "nombre": "De la tierra a la luna",
+        "precio":300, 
+        "autor" : "Julio Verne",
+        "categoria" :  "clasicos",
+        "img" : "verne.jpeg",
+        "stock": 7
+    },
+    {
+        "id": 48,
+        "nombre": "Los Miserables",
+        "precio":540, 
+        "autor" : "Victor Hugo",
+        "categoria" :  "clasicos",
+        "img" : "hugo.jpeg",
+        "stock": 3
+    },
+    {
+        "id": 49,
+        "nombre": "Madame Bovary",
+        "precio":300, 
+        "autor" : "Gustave Flaubert",
+        "categoria" :  "clasicos",
+        "img" : "bovary.jpeg",
+        "stock": 1
+    },
+    {
+        "id": 50,
+        "nombre": "Tom Sawyer",
+        "precio":300, 
+        "autor" : "Mark Twain",
+        "categoria" :  "clasicos",
+        "img" : "tom.jpeg",
+        "stock": 6
+    },
+    {
+        "id": 51,
+        "nombre": "Ulises",
+        "precio":850, 
+        "autor" : "James Joyce",
+        "categoria" :  "modernos",
+        "img" : "ulyses.jpeg",
+        "stock": 1
+    },
+    {
+        "id": 52,
+        "nombre": "La montaña Magica",
+        "precio":300, 
+        "autor" : "Thomas Mann",
+        "categoria" :  "modernos",
+        "img" : "magica.jpeg",
+        "stock": 5
+    },
+    {
+        "id": 53,
+        "nombre": "En busca del tiempo perdido (obra completa)",
+        "precio":2000, 
+        "autor" : "Marcel Proust",
+        "categoria" :  "modernos",
+        "img" : "proust.jpeg",
+        "stock": 6
+    },
+    {
+        "id": 54,
+        "nombre": "Adios a las armas",
+        "precio":140, 
+        "autor" : "Ernest Hemingway",
+        "categoria" :  "modernos",
+        "img" : "armas.jpeg",
+        "stock": 3
+    },
+    {
+        "id": 55,
+        "nombre": "El gran Gartsby",
+        "precio":260, 
+        "autor" : "F. Scott Fitzgerald ",
+        "categoria" :  "modernos",
+        "img" : "gatsby.jpeg",
+        "stock": 4
+    },
+    {
+        "id": 56,
+        "nombre": "Viaje al fin de la noche",
+        "precio":380, 
+        "autor" : "Louis-Ferdinand Celine",
+        "categoria" :  "modernos",
+        "img" : "celine.jpeg",
+        "stock": 3
+    },
+    {
+        "id": 57,
+        "nombre": "El faro",
+        "precio":300, 
+        "autor" : "Virginia Woolf",
+        "categoria" :  "modernos",
+        "img" : "faro.jpeg",
+        "stock": 5
+    },
+    {
+        "id": 58,
+        "nombre": "Cien años de soledad",
+        "precio":240, 
+        "autor" : "Gabriel Garcia Marquez",
+        "categoria" :  "modernos",
+        "img" : "cien.jpeg",
+        "stock": 3
+    },
+    {
+        "id": 59,
+        "nombre": "Rayuela",
+        "precio":640, 
+        "autor" : "Julio Cortazar",
+        "categoria" :  "modernos",
+        "img" : "rayuela.jpeg",
+        "stock": 7
+    },
+    {
+        "id": 60,
+        "nombre": "El ruido y la furia",
+        "precio":310, 
+        "autor" : "William Faulkner",
+        "categoria" :  "modernos",
+        "img" : "ruido.jpeg",
+        "stock": 0
+    },
+    {
+        "id": 61,
+        "nombre": "El mapa y el territorio",
+        "precio":700, 
+        "autor" : "Michel Houellebecq",
+        "categoria" :  "contemporaneos",
+        "img" : "mapa.jpeg",
+        "stock": 7
+    }, 
+    {
+        "id": 62,
+        "nombre": "Trilogia de New York",
+        "precio":310, 
+        "autor" : "Paul Austen",
+        "categoria" :  "contemporaneos",
+        "img" : "trilogia.jpeg",
+        "stock": 10
+    },
+    {
+        "id": 63,
+        "nombre": "Plataforma",
+        "precio":730, 
+        "autor" : "Michel Houellebecq",
+        "categoria" :  "contemporaneos",
+        "img" : "plataforma.jpeg",
+        "stock": 7
+    },
+    {
+        "id": 64,
+        "nombre": "Cronicas del pajaro que da curda al mundo",
+        "precio":160, 
+        "autor" : "Haruki Murakami",
+        "categoria" :  "contemporaneos",
+        "img" : "pajaro.jpeg",
+        "stock": 7
+    }, 
+    {
+        "id": 65,
+        "nombre": "La insoportable levedad del ser",
+        "precio":115, 
+        "autor" : "Milan Kundera",
+        "categoria" :  "contemporaneos",
+        "img" : "ser.jpeg",
+        "stock": 10
+    },
+    {
+        "id": 66,
+        "nombre": "A la orilla del mar",
+        "precio":500, 
+        "autor" : "Abdulrazak Gurnah",
+        "categoria" :  "contemporaneos",
+        "img" : "mar.jpeg",
+        "stock": 4
+    },
+    {
+        "id": 67,
+        "nombre": "Ficciones",
+        "precio":225, 
+        "autor" : "Jorge Luis Borges",
+        "categoria" :  "modernos",
+        "img" : "ficciones.jpeg",
+        "stock": 9
+    },
+    {
+        "id": 68,
+        "nombre": "El Aleph",
+        "precio":225, 
+        "autor" : "Jorge Luis Borges",
+        "categoria" :  "modernos",
+        "img" : "aleph.jpeg",
+        "stock": 9
+    },
+    {
+        "id": 68,
+        "nombre": "La Iliada",
+        "precio":550,
+        "autor" : "Homero",
+        "categoria" :  "clasicos",
+        "img" : "iliada.jpeg",
+        "stock": 2
+    },
+    {
+        "id": 69,
+        "nombre": "Otelo",
+        "precio":150,
+        "autor" : "William Shakespeare",
+        "categoria" :  "clasicos",
+        "img" : "otelo.jpeg",
+        "stock": 9
+    },
+    {
+        "id": 70,
+        "nombre": "EL Libro De Los Amores Ridiculos",
+        "precio":300,
+        "autor" : "Milan Kundera",
+        "categoria" :  "contemporaneo",
+        "img" : "ridiculo.jpeg",
+        "stock":6
+    },
+    {
+        "id": 71,
+        "nombre": "Manhattan Transfer",
+        "precio":200,
+        "autor" : "John Dos Passos",
+        "categoria" :  "modernos",
+        "img" : "pasos.jpeg",
+        "stock":6
+    },    
+    {
+        "id": 72,
+        "nombre": "Tokyo Blues",
+        "precio":235, 
+        "autor" : "Haruki Murakami",
+        "categoria" :  "contemporaneos",
+        "img" : "tokyo.jpeg",
+        "stock": 7
+    }, 
+    {
+        "id": 73,
+        "nombre": "After Dark",
+        "precio":110, 
+        "autor" : "Haruki Murakami",
+        "categoria" :  "contemporaneos",
+        "img" : "after.jpeg",
+        "stock": 2
+    },
+    {
+        "id": 74,
+        "nombre": "Misery",
+        "precio":100, 
+        "autor" : "Stephen King",
+        "categoria" :  "contemporaneos",
+        "img" : "misery.jpeg",
+        "stock": 2
+    },
+    {
+        "id": 75,
+        "nombre": "Comestica del enemigo",
+        "precio":200, 
+        "autor" : "Amélie Nothomb",
+        "categoria" :  "contemporaneos",
+        "img" : "enemigo.jpeg",
+        "stock": 7
+    }, 
+    {
+        "id": 76,
+        "nombre": "Estupor y temblores",
+        "precio":215, 
+        "autor" : "Amélie Nothomb",
+        "categoria" :  "contemporaneos",
+        "img" : "temblores.jpeg",
+        "stock": 10
+    },
+    {
+        "id": 78,
+        "nombre": "Diario de Hiroshima",
+        "precio":260, 
+        "autor" : "Amélie Nothomb",
+        "categoria" :  "contemporaneos",
+        "img" : "diario.jpeg",
+        "stock": 4
+    },
+    {
+        "id": 78,
+        "nombre": "Muerte en los Andes",
+        "precio":225, 
+        "autor" : "Mario Vargas Llosa",
+        "categoria" :  "modernos",
+        "img" : "andes.jpeg",
+        "stock": 9
+    },
+    {
+        "id": 79,
+        "nombre": "Muerte en los Andes",
+        "precio":325, 
+        "autor" : "Mario Vargas Llosa",
+        "categoria" :  "modernos",
+        "img" : "aleph.jpeg",
+        "stock": 6
+    },
+    {
+        "id": 80,
+        "nombre": "El Extranjero",
+        "precio":550,
+        "autor" : "Albert Camus",
+        "categoria" :  "modernos",
+        "img" : "extranjero.jpeg",
+        "stock": 2
+    },
+    {
+        "id": 81,
+        "nombre": "La Peste",
+        "precio":150,
+        "autor" : "Albert Camus",
+        "categoria" :  "modernos",
+        "img" : "otelo.jpeg",
+        "stock": 9
+    },
+    {
+        "id": 82,
+        "nombre": "Necromonicum",
+        "precio":300,
+        "autor" : "H.P Lovecraft",
+        "categoria" :  "modernos",
+        "img" : "necro.jpeg",
+        "stock":6
+    },
+    {
+        "id": 83,
+        "nombre": "Moon Palace",
+        "precio":200,
+        "autor" : "Paul Auster",
+        "categoria" :  "contemporaneos",
+        "img" : "moon.jpeg",
+        "stock":6
+    }
+
+
+]
+
+
+
+
+
+

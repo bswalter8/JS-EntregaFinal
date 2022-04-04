@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <title>Libreria de Babel</title>
+</head>
+<body>
+    <section>
+        <header>
+            <nav>
+                <h1>Libreria de Babel</h1>
+            
+            
+                <select id="Ordenar" class="cat">
+                    <option value="nombre">Nombre</option>
+                    <option value="autor" selected>Autor</option>
+                    <option value="mayor">Mayor precio</option>
+                    <option value="menor">Menor precio</option>
+                </select>
+                <div class="barra-de-busqueda">
+                    <input type="search" id="buscador" placeholder="Autor o Libro">
+                    <button id="b_buscador" class="boton_de_busqueda">Buscar</button>  
+                </div>        
+                <div class="cat">
+                    <input type="checkbox" class="checkbox_T" id="checkbox_todos" value="todos" checked> Todos</input>
+                    <input type="checkbox" class="checkbox" value="clasicos" > Clasicos</input>
+                    <input type="checkbox" class="checkbox" value="poesia" > Poesia</input>
+                    <input type="checkbox" class="checkbox" value="modernos"> Modernos</input>
+                    <input type="checkbox" class="checkbox" value="contemporaneos"> Contemporaneos</input>
+                </div>
+                <div class="carrito-container">           
+                    <button type="button" id="b_carrito" class='lined thick carrito_Boton'></button> 
+                    <p id="num_Carrito">1</p>
+                </div>   
+             </nav>  
+        </header>
+        
+      <div id="3D" class="d-container"> 
+        <section >  
+            <div id="libros" class="items">         
+            </div>
+            <div id="paginas" class="paginas"></div> 
+            <br>
+        </section>
+     </div>
+      
+        <!-- carrito Modal -->
+        <div id="carrito_Modal" class="c_modal">
+            
+            <!-- carrito content -->
+            <div class="carrito-content">
+                <div class="carrito_lista">
+                    <span class="close" id="carrito_Close">&times;</span>
+                    <h2>Su carrito....<br><br></h2>
+                    <ul id="lista_carrito"></ul>
+                </div>
+                <div class="boton_de_carrito">
+                      <button type="button" id="b_comprar">Comprar</button> 
+                      <div id="carrito_bottom"></div>
+                </div>
+            </div>
+        
+        </div>
+            
+        <!-- comprar Modal -->
+        <div id="comprar_Modal" class="compra_modal">
+            
+            <!-- comprar content -->
+            <div class="compra-content">
+            
+                <span class="close" id="compra_Close">&times;</span>
+            
+                <div id="valor_compra"></div>
+                <p>Inserte el valor a pagar:</p>
+                <input type="text" id="valor_pago" name="name" required maxlength="8" size="10" value="0">
+                <button type="button" id="b_pagar">Pagar</button>
+                <div id="mensaje_finalcompra"></div>
+            </div>
+        
+        </div>
+        
+
+        <!-- agregado Modal -->
+        <div id="agregado_Modal" class="agregado_modal">
+            
+            <!-- agregado content -->
+            <div class="agregado-content">
+                
+                <span class="close" id="agregado_Close">&times;</span>
+                <div id="agregado_item"></div>
+            </div>
+        
+        </div>
+        <br>
+        <br>
+   
+       
+    <script  src="  https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script> 
+    <script  src=" https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js"></script>
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script>   
+    <script  src=" https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script> 
+    <script src="3d.js"></script>
+    <script src="libreria.js"></script>  
+</body>
+</html>
